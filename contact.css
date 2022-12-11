@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+ }
+  h1{
+  border-style: outest;
+  border: 5px double rgb(155, 13, 81);
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  color: orange;
+  font-family: Wide Latin;
+  background-image: url("s.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+      
+     
+       
+  }
+  
+  header{
+    
+      margin: 5px;
+        border: 3px solid rgb(177, 30, 140);
+        border-radius: 0px 0px 100px 100px;
+        font-family: Castellar;
+        display: flex;
+        justify-content: space-around;
+        background-image: linear-gradient(rgb(255, 208, 0), rgb(128, 0, 122), rgb(255, 102, 0), rgb(255, 0, 55));
+         
+        background-image: url("c.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+ 
+        nav{
+         background-color: none;
+      }
+ 
+       
+      ul{
+         list-style: none;
+         display: flex;
+         align-items: center;}
+      
+  
+         ul li a{
+          margin: 0;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 800;
+          color: white;
+          border-radius: 10px;
+          }
+          nav ul li a:hover{
+          background-color: rgb(215, 252, 128);
+          color: black;
+          font-size: 20px;
+          font-weight: 900;}
+             
+             
+            nav ul{
+             padding: 0;
+             margin: 0;
+                 list-style: none;
+                 position: relative;
+                 color: black;
+                 
+                 }
+                nav ul li{
+                 display: inline-block;
+                 
+                 border-radius: 10px;
+                 }
+                 nav a{
+                     display: block;
+                     padding: 0 10px;
+                 color: rgb(212, 22, 22);
+                 font-size: 20px;
+                 line-height: 60px;
+                 text-decoration: none;
+             
+                 }
+              
+             nav a :hover{
+              
+              background-color: rgba(0,0,0,0.4);
+              color: #fff;
+              
+              }
+              nav ul ul li{
+                 width: 170px;
+                 float: none;
+                 display: list-item;
+                 position: relative;
+              }
+              nav ul ul ul li{
+                 top: -60px;
+                 left: 170px;
+                 position: relative;
+              }
+              li> a:after{content: '';}
+              li> a:only-child:after{content: "";}
+     
+              nav ul ul{
+                 top: 60px;
+                 display: none;
+                 position: absolute;
+              }
+              nav ul li:hover>ul{
+                 
+                 display: inherit;
+                 
+              }
+        .img1{ 
+         
+        border-style: outest;
+         border: 10px groove rgb(255, 136, 0);
+         border-bottom-color: rgb(157, 255, 0);
+         border-left-color: rgb(255, 0, 191);
+         border-top-color: black;
+         
+          height: 80px;
+          width: 120px;
+          margin: 5px;
+          padding: 1px 1px 1px 1px;
+        }
+        .img3{ 
+         
+         border-style: inset;
+          border: 2px groove rgb(255, 136, 0);
+          border-bottom-color: rgb(157, 255, 0);
+          border-left-color: rgb(255, 0, 191);
+          border-top-color: black;
+          border-radius: 50%;
+           height: 20px;
+           width: 30px;
+           margin-left: 8em;
+           margin-top: 2px;
+           float: left;
+         }
+ 
+        
+        
+      body{ 
+         
+        
+        background-image: url("f.jpg");
+          background-size: cover;
+        }
+        .contact{
+            height: 30em;
+            width: 20em;
+            background-color: bisque;
+            border-radius: 8px;
+            margin-left: 30em;
+            text-align: center;
+
+        }
+        .contact p{
+         font-size: 1em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: blueviolet;
+         font-weight: bold;
+         text-transform: capitalize;
+      
+        }
+       
+        .contact form{
+         background-color: rgb(68, 45, 58);
+         width: 19em;
+         height: 28em;
+         margin-left: 8px;
+         border-radius: 8px;
+         position: absolute;
+					inset: 2px;
+					z-index: 10;
+					display: flex;
+               animation: alternate(233 45 07 56);
+               flex-direction: column;
+               
+				
+         
+        }
+        .contact label{
+
+         font-size: 1em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: rgb(17, 17, 17);
+         font-weight: bold;
+         align-content: flex-start;
+         display: block;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 2em;
+   
+    
+    color: orange;
+    
+         
+         
+         
+        }
+        .contact input{
+         font-size: 1em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: rgb(17, 17, 17);
+         text-align: center;
+         width: 10em;
+         height: 3em;
+         border: none;
+         margin-left: 5em;
+         border-radius: 2px;
+         margin-top: 1px;
+         background-color: bisque;
+         justify-items: center;
+         float: right;
+         
+        }
+        #coment{
+         font-size: 1em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: rgb(255, 252, 250);
+         font-weight: bold;
+         text-transform: capitalize;
+         margin-top: 2em;
+         
+         
+      }
+       
+        .contact button{
+         font-size: 1em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: rgb(248, 246, 245);
+         font-weight: bold;
+         margin-top: 10px;
+         margin-left: 1em;
+         width: 5em;
+         height: 3em;
+         border-radius: 5px;
+         background-color: black;
+         cursor: pointer;
+         animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+         animation: alternate;
+        }
+        .contact a{
+         font-size: 1em;
+         font-weight: bold;
+         text-transform: capitalize;
+         text-decoration: none;
+         cursor: pointer;
+         margin-top: 8px;
+         color: rgb(230, 102, 28);
+         
+        }
+       
+      
+      
+      
+       
+     
+  
+        @media screen and (max-width: 768px){
+         body{
+         background-image: url("ff.jpg");
+         background-repeat: no-repeat;
+         background-size: cover; 
+         }
+         
+         header{
+             margin: 5px;
+               border: 2px solid gray;
+               border-radius: 0px 0px 100px 100px;
+               font-family: Castellar;
+               display: flex;
+               justify-content: space-around;
+               background-image: linear-gradient(rgb(255, 208, 0), rgb(128, 0, 122), rgb(255, 102, 0), rgb(255, 0, 55));
+                
+                
+               }
+        
+               nav{
+                background-color: none;
+             }
+        
+              
+             ul{
+                list-style: none;
+                display: flex;
+                
+                align-items: top;}
+             
+         
+                ul li a{
+                 margin: 0;
+                 text-decoration: none;
+                 font-size: 10px;
+                 font-weight: 600;
+                 color: white;
+                 border-radius: 5px;
+                 }
+                 nav ul li a:hover{
+                 background-color: rgb(215, 252, 128);
+                 color: black;
+                 font-size: 10px;
+                 font-weight: 900;}
+                    
+                    
+                   nav ul{
+                    padding: 0;
+                    margin: 0;
+                        list-style: none;
+                        position: relative;
+                        color: black;
+                        
+                        }
+                       nav ul li{
+                        display: inline-block;
+                        
+                        border-radius: 5px;
+                        
+                        
+                        
+                        
+                        }
+                        nav a{
+                            display: block;
+                            padding: 0 10px;
+                        color: rgb(212, 22, 22);
+                        font-size: 20px;
+                        line-height: 50px;
+                        text-decoration: none;
+                    
+                        }
+                     
+                    nav a :hover{
+                     
+                     background-color: rgba(0,0,0,0.4);
+                     color: #fff;
+                     
+                     }
+                     nav ul ul li{
+                        width: 150px;
+                        float: none;
+                        display: list-item;
+                        position: relative;
+                     }
+                     nav ul ul ul li{
+                        top: -40px;
+                        left: 140px;
+                        position: relative;
+                     }
+                     li> a:after{content: '';}
+                     li> a:only-child:after{content: "";}
+            
+                     nav ul ul{
+                        top: 40px;
+                        display: none;
+                        position: absolute;
+                     }
+                     nav ul li:hover>ul{
+                        
+                        display: inherit;
+                        
+                     }
+  
+         .img3{ 
+          
+          border-style: inset;
+           border: 2px groove rgb(255, 136, 0);
+           border-bottom-color: rgb(157, 255, 0);
+           border-left-color: rgb(255, 0, 191);
+           border-top-color: black;
+           border-radius: 50%;
+            height: 20px;
+            width: 30px;
+            margin-left: 8em;
+            margin-top: 2px;
+            float: left;
+          }
+  
+         
+         
+       body{ 
+          
+         
+         background-image: url("f.jpg");
+           background-size: cover;
+         }
+         .contact{
+             height: 30em;
+             width: 20em;
+             background-color: rgb(107, 6, 102);
+             border-radius: 8px;
+             margin-left: 9em;
+             margin-top: 5em;
+             text-align: center;
+ 
+         }
+         .contact p{
+          font-size: 1em;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(241, 245, 243);
+          font-weight: bold;
+          text-transform: capitalize;
+          
+       
+         }
+        
+         .contact form{
+          background-color: rgb(230, 220, 132);
+          width: 19em;
+          height: 28em;
+          margin-left: 8px;
+          border-radius: 8px;
+          position: absolute;
+                inset: 2px;
+                z-index: 10;
+                display: flex;
+                animation: alternate(233 45 07 56);
+                flex-direction: column;
+                
+             
+          
+         }
+         .contact label{
+ 
+          font-size: 1em;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(17, 17, 17);
+          font-weight: bold;
+          align-content: flex-start;
+          display: block;
+     font-size: 1em;
+     text-align: left;
+     padding-left: 2em;
+    
+     
+     color: orange;
+     
+          
+          
+          
+         }
+         .contact input{
+          font-size: 1em;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(17, 17, 17);
+          text-align: center;
+          width: 10em;
+          height: 3em;
+          border: none;
+          margin-left: 5em;
+          border-radius: 2px;
+          margin-top: 1px;
+          background-color: bisque;
+          justify-items: center;
+          float: right;
+          
+         }
+         #coment{
+          font-size: 1em;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(255, 252, 250);
+          font-weight: bold;
+          text-transform: capitalize;
+          margin-top: 2em;
+          
+          
+       }
+        
+         .contact button{
+          font-size: 1em;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(248, 246, 245);
+          font-weight: bold;
+          margin-top: 10px;
+          margin-left: 1em;
+          width: 5em;
+          height: 3em;
+          border-radius: 5px;
+          background-color: black;
+          cursor: pointer;
+          animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+          animation: alternate;
+         }
+         .contact a{
+          font-size: 1em;
+          font-weight: bold;
+          text-transform: capitalize;
+          text-decoration: none;
+          cursor: pointer;
+          margin-top: 8px;
+          color: rgb(230, 102, 28);
+          
+         }
+         .img1{ 
+         
+            border-style: outset;
+             border: 5px groove rgb(255, 136, 0);
+             border-bottom-color: rgb(157, 255, 0);
+             border-left-color: rgb(255, 0, 191);
+             border-top-color: black;
+             border-radius: 50%;
+              height: 80px;
+              width: 120px;
+              margin: 5px;
+              padding: 1px 1px 1px 1px;
+            }
+      }
+      @media screen and (max-width: 480px){
+         h1{
+				font-weight: 100;
+				font-size: small;
+				animation-direction: top;
+			}
+         .contact{
+            height: 30em;
+            width: 20em;
+            background-color: rgb(228, 160, 77);
+            border-radius: 8px;
+            margin-left: 2em;
+            margin-top: 5em;
+            text-align: center;
+
+        }
+        .contact p{
+         font-size: 1em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: rgb(91, 145, 124);
+         font-weight: bold;
+         text-transform: capitalize;
+      
+        }
+       
+        .contact form{
+         background-color: rgb(65, 58, 39);
+         width: 19em;
+         height: 28em;
+         margin-left: 8px;
+         border-radius: 8px;
+         margin-top: 0.2em;
+         position: absolute;
+               inset: 2px;
+               z-index: 10;
+               display: flex;
+               animation: alternate(233 45 07 56);
+               flex-direction: column;
+               
+            
+         
+        }
+        .contact label{
+
+         font-size: 1em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: rgb(17, 17, 17);
+         font-weight: bold;
+         align-content: flex-start;
+         display: block;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 2em;
+   
+    
+    color: orange;
+    
+         
+         
+         
+        }
+        .contact input{
+         font-size: 1em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: rgb(17, 17, 17);
+         text-align: center;
+         width: 10em;
+         height: 3em;
+         border: none;
+         margin-left: 5em;
+         border-radius: 2px;
+         margin-top: 1px;
+         background-color: bisque;
+         justify-items: center;
+         float: right;
+         
+        }
+        #coment{
+         font-size: 1em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: rgb(255, 252, 250);
+         font-weight: bold;
+         text-transform: capitalize;
+         margin-top: 2em;
+         
+         
+      }
+       
+        .contact button{
+         font-size: 1em;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: rgb(248, 246, 245);
+         font-weight: bold;
+         margin-top: 10px;
+         margin-left: 1em;
+         width: 5em;
+         height: 3em;
+         border-radius: 5px;
+         background-color: black;
+         cursor: pointer;
+         animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+         animation: alternate;
+        }
+        .contact a{
+         font-size: 1em;
+         font-weight: bold;
+         text-transform: capitalize;
+         text-decoration: none;
+         cursor: pointer;
+         margin-top: 8px;
+         color: rgb(230, 102, 28);
+         
+        }
+        .img1{ 
+         
+         border-style: outset;
+          border: 5px groove rgb(255, 136, 0);
+          border-bottom-color: rgb(157, 255, 0);
+          border-left-color: rgb(255, 0, 191);
+          border-top-color: black;
+          border-radius: 50%;
+           height: 80px;
+           width: 120px;
+           margin: 5px;
+           padding: 1px 1px 1px 1px;
+         }
+      }
+        
